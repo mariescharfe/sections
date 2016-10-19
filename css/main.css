@@ -1,8 +1,65 @@
 html {
   box-sizing: border-box;
   font-family: Lato, sans-serif;
+  line-height: 1.5em;
+  background-color: #f2f2f2;
+  color: #333;
+  vertical-align: middle;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+div {
+  display: inline-block;
+}
+
+.image {
+  display: inline-block;
+  width: 100%;
+  max-width: 25em;
+  padding: 1em;
+  margin: 0;
+}
+
+.section {
+  display: inline-block;
+  max-width: 25em;
+  padding: 1em;
+  width: 100%;
+}
+
+h2 {
+  padding: 1em;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.btn {
+  padding: .4em .75em .5em;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  text-align: center;
+  border: 3px solid #333;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.125rem;
+}
+
+.btn:hover {
+  background-color: #666;
+  border-color: #666;
+  color: #f2f2f2;
 }
